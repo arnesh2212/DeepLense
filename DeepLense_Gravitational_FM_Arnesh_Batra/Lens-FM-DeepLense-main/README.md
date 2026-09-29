@@ -6,7 +6,7 @@ Lens-LeJEPA pretrains a Vision Transformer on unlabelled strong-lensing images w
 [LeJEPA](https://arxiv.org/abs/2511.08544) objective plus two lensing priors, then freezes it and adapts it with
 rank-stabilized LoRA to three downstream tasks: dark matter substructure classification, axion mass regression and
 synthetic 2x super-resolution.
-
+Blog Link - [Blog](https://arnesh2212.github.io/lens-jepa.github.io/)
 ![Method](docs/img/fig1_method.png)
 
 * **Lens-safe views.** Only PSF-like blur and detector noise. No crop, zoom or rescale, because they change the
